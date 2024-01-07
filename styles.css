@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0, 90%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+.weather-form{
+    margin: 0   auto;
+    position: relative;
+    width: 400px;
+    padding: 25px;
+}
+
+button{
+    background-color: hsl(0, 0%, 81%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(0, 3%, 16%);
+    height: 2.5rem;
+    background-color: hsl(117, 40%, 71%);
+}
+
+button:hover{
+    background-color: hsl(117, 40%, 61%);
+}
+
+input{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.4);
+    color: hsl(0, 3%, 16%);
+    width: 15rem;
+    height: 2.3rem;
+}
+
+.city-container{
+background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 96%, 44%));
+width: fit-content;
+margin: 0 auto;
+padding: 50px;
+box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.4);
+}
