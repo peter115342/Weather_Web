@@ -122,3 +122,13 @@ p{
     text-align: center;
 }
 
+.weather-banner {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(0, 0%, 20%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
