@@ -1,11 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0, 90%);
+    background-color: hsl(0, 2%, 76%);
     margin: 0;
     display: flex;
     flex-direction: column;
     align-self: center;
-
 }
 .weather-form{
     margin: 0   auto;
@@ -25,7 +24,9 @@ button{
     font-weight: bold;
     color: hsl(0, 3%, 16%);
     height: 2.5rem;
-    background-color: hsl(117, 40%, 71%);
+    background-color: hsl(143, 59%, 51%);
+    width: 8.7rem;
+
 }
 
 button:hover{
@@ -43,9 +44,81 @@ input{
 }
 
 .city-container{
-background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 96%, 44%));
-width: fit-content;
-margin: 0 auto;
-padding: 50px;
-box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.4);
+     background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(48, 97%, 48%));
+     width: fit-content;
+     min-width: 300px;
+     border-radius: 15px;
+     margin: 0 auto;
+     padding: 55px;
+     box-shadow: 4px 4px 10px hsla(0, 0%, 0%, 0.4);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     min-height: 400px;
 }
+
+.showError{
+    color: hsl(0, 0%, 5%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 5%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-emoji{
+    font-size: 5rem;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.description-display{
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 5%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.humidity-display{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 5%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.temp-display{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsl(0, 1%, 15%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.city-display{
+    font-size: 4rem;
+    font-weight: bold;
+    color: hsl(0, 1%, 15%);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
