@@ -25,7 +25,7 @@ button{
     color: hsl(0, 3%, 16%);
     height: 2.5rem;
     background-color: hsl(143, 59%, 51%);
-    width: 8.7rem;
+    width: 37%;
 
 }
 
@@ -39,7 +39,7 @@ input{
     font-weight: bold;
     border: 2px solid hsla(0, 0%, 20%, 0.4);
     color: hsl(0, 3%, 16%);
-    width: 15rem;
+    width: 57%;
     height: 2.3rem;
 }
 
